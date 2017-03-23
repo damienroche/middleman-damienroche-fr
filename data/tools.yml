@@ -1,0 +1,94 @@
+tools:
+  - 
+    name: Babel
+    href: "https://babeljs.io/"
+  - 
+    name: Balsamiq Mockups
+    href: "https://balsamiq.com/products/mockups/"
+  - 
+    name: Bitbucket
+    href: "https://bitbucket.org/"
+  - 
+    name: Bower
+    href: "http://bower.io/"
+  - 
+    name: Brew
+    href: "https://brew.sh"
+  - 
+    name: Codepen
+    href: "https://codepen.io/ramien"
+  -
+    name: Dropbox
+    href: "https://db.tt/nrMxySUN"
+  - 
+    name: Foundation
+    href: "http://foundation.zurb.com/"
+  - 
+    name: Github
+    href: "https://github.com/damienroche"
+  - 
+    name: Google Developpers Tool
+    href: "https://developers.google.com/speed/pagespeed/insights/?hl=fr&url=http%3A%2F%2Fdamienroche.fr%2F&tab=desktop"
+  - 
+    name: Illustrator
+    href: "http://www.adobe.com/fr/products/illustrator.html"
+  - 
+    name: Invision
+    href: "https://www.invisionapp.com"
+  - 
+    name: Jira
+    href: 
+  - 
+    name: JSBin
+    href: "https://jsbin.com/"
+  - 
+    name: Middleman
+    href: "https://middlemanapp.com/"
+  - 
+    name: NPM
+    href: "https://www.npmjs.com/"
+  - 
+    name: Oh my zsh
+    href: "http://ohmyz.sh/"
+  - 
+    name: OmniGraffle
+    href: 
+  - 
+    name: Photoshop
+    href: 
+  - 
+    name: Sage
+    href: 
+  - 
+    name: Slack
+    href: 
+  - 
+    name: Skype
+    href: 
+  - 
+    name: Slim
+    href: 
+  - 
+    name: Stack Overflow
+    href: "http://stackoverflow.com/users/5592144/damien-roche"
+  - 
+    name: Sublime Text
+    href: 
+  - 
+    name: Trello
+    href: 
+  - 
+    name: Typekit
+    href: 
+  - 
+    name: Twig
+    href: 
+  - 
+    name: Vagrant
+    href: 
+  - 
+    name: Webpack
+    href: 
+  - 
+    name: Wordpress
+    href: 

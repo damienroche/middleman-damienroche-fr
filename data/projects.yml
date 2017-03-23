@@ -1,0 +1,57 @@
+projects:
+  -
+    name: "Air France Corporate"
+    href: "http://corporate.airfrance.com/"
+    client: "Air France"
+    agency: "W - Lacompany"
+    mission: "Front-End"
+    year: 2015
+    visibility: 1
+  -
+    name: "Celma"
+    href: "http://celma.fr/"
+    client: "Celma"
+    agency: "Marsatwork"
+    mission: "Website"
+    year: 2015
+    visibility: 0
+  -
+    name: "RTE France"
+    href: "http://www.rte-france.com/"
+    client: "RTE France"
+    agency: "W - Lacompany"
+    mission: "Front-End"
+    year: 2013
+    visibility: 1
+  -
+    name: "Sous la jupe"
+    href: "http://www.souslajupe.net/"
+    client: "Sous la jupe"
+    agency: ""
+    mission: "Website + Design"
+    year: 2013
+    visibility: 1
+  -
+    name: "CAB architectes"
+    href: "http://www.cabarchitectes.com"
+    client: "Calori Azimi Botineau Architectes"
+    agency: ""
+    mission: "Website + Design"
+    visibility: 1
+    year: 2013
+  -
+    name: "CBlog"
+    href: "http://cblog.culture.fr/"
+    client: "Ministère de la Culture"
+    agency: "W - Lacompany"
+    mission: "Front-End"
+    year: 2013
+    visibility: 1
+
+# name: ""
+# href: ""
+# client: ""
+# agency: ""
+# mission: ""
+# year:
+# visibility:
