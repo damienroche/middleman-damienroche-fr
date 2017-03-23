@@ -123,6 +123,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rails-assets-normalize-css (5.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
@@ -163,6 +164,7 @@ DEPENDENCIES
   middleman-deploy (~> 1.0)!
   middleman-livereload (~> 3.1.0)!
   middleman-minify-html!
+  rails-assets-normalize-css!
   slim (~> 3.0.2)!
 
 BUNDLED WITH
