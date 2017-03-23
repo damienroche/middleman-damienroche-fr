@@ -44,3 +44,23 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+# Setup middleman deploy
+# To deploy the build directory to a remote host via ftp:
+
+file = File.open(".password", "r")
+password = file.read
+file.close
+
+file = File.open(".user", "r")
+user = file.read
+file.close
+
+activate :deploy do |deploy|
+  deploy.method = :ftp
+  # host, user, passwword and path *must* be set
+  deploy.host = "ftp.damienroche.fr"
+  deploy.path = "/www/site"
+  deploy.user = user
+  deploy.password = password
+end

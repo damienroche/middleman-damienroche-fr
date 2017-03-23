@@ -5,6 +5,7 @@ source "https://rubygems.org" do
 	gem 'middleman',              '~>3.4.0'
   gem 'middleman-livereload', '~> 3.1.0'
   gem 'middleman-autoprefixer'
+  gem 'middleman-deploy', '~> 1.0'
   # gem 'middleman-minify-html'
   gem 'slim',                   '~> 3.0.2'
   gem 'better_errors'
