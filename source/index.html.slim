@@ -2,7 +2,16 @@
 title: Hello
 ---
 
-/ol
-  - data.tools.tools.each do |tool|
-  	li
-  		a href= tool.href = tool.name
+.container
+  h1 hello
+  p = lorem.sentences 5
+  p = lorem.sentences 5
+  /ol
+    - data.tools.each do |tool|
+    	li
+    		a href= tool.href = tool.name
+
+  ul
+    - data.social.each do |item|
+      li
+        a href= item.href = item.name

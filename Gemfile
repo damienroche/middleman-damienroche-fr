@@ -13,4 +13,5 @@ end
 
 source "https://rails-assets.org/" do
   gem 'rails-assets-normalize-css'
+  gem 'rails-assets-foundation-sites', '6.2.3'
 end

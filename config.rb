@@ -66,7 +66,7 @@ file.close
 activate :deploy do |deploy|
   deploy.method = :ftp
   deploy.host = "ftp.damienroche.fr"
-  deploy.path = "/www/site"
+  deploy.path = "/www/"
   deploy.user = user
   deploy.password = password
   deploy.build_before = true # default: false

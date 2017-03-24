@@ -13,6 +13,9 @@ html
     == javascript_include_tag  "all"
 
   body class="#{page_classes}"
-    = partial "header"
-    == yield
-    = partial "footer"
+    - if data.site.maintenance == 0
+      = partial "header"
+      == yield
+      = partial "footer"
+    - else
+      = partial "maintenance"

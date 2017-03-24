@@ -1,13 +1,5 @@
-- first_name: "damien"
-- last_name: "roche"
-- email: "damienroche@free.fr"
-- description: "web developer"
-- currently: "student @ 42 Paris"
-- links:
-  - social:
-    - twitter: "https://twitter.com/dam_"
-    - github: "https://github.com/damienroche"
-    - codepen: "http://codepen.io/ramien/"
-    - hopwork: "https://www.hopwork.fr/profile/damienroche"
-    - youtube: "https://www.youtube.com/user/ramiendoche/videos"
-    - soundcloud: "https://soundcloud.com/dam"
+first_name: "damien"
+last_name: "roche"
+email: "damienroche@free.fr"
+description: "web developer"
+currently: "student @ 42 computer science school in Paris"

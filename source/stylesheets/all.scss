@@ -5,8 +5,28 @@
 *= require_self
 */
 
+@charset 'utf-8';
+// @import 'foundation-sites';
+@import 'foundation-sites/util/util';
+
+@import 'variables';
+@import 'page';
+@import 'maintenance';
+// @include foundation-grid;
+// @include foundation-typography;
+// @include foundation-button;
+// @include foundation-accordion;
+// @include foundation-dropdown-menu;
+// @include foundation-dropdown;
+// @include foundation-visibility-classes;
+// @include foundation-tabs;
+// @include foundation-forms;
+// @include foundation-reveal;
+// @include foundation-accordion;
+// @include foundation-float-classes;
+
 body {
-  background-color: #fbc547;
+  padding: 1rem;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
@@ -14,11 +34,11 @@ body {
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 }
 
-a {
-  color: rgba(#000, 0.7);
+::selection {
+  background-color: $primary;
+  color: white;
+}
 
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
+a {
+  color: $primary;
 }
