@@ -39,6 +39,8 @@ end
 #     "Helping"
 #   end
 # end
+
+# Setup Google Analytics
 activate :google_analytics do |ga|
   ga.tracking_id = data.site.analytic
   ga.minify = true
