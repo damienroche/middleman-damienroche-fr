@@ -1,4 +1,4 @@
-# (damienroche.fr) Simple static website made with Middleman
+# Simple static website made with Middleman (damienroche.fr)
 
 Building a simple static website with middleman in ruby, js, sass, slim and yml.
 
