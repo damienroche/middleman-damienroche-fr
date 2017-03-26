@@ -9,6 +9,7 @@ source "https://rubygems.org" do
   gem 'middleman-minify-html'
   gem 'slim',                   '~> 3.0.2'
   gem "middleman-favicon-maker"
+  gem 'middleman-google-analytics', '~> 3.0'
   gem 'better_errors'
 end
 

@@ -39,6 +39,10 @@ end
 #     "Helping"
 #   end
 # end
+activate :google_analytics do |ga|
+  ga.tracking_id = data.site.analytic
+  ga.minify = true
+end
 
 # Build-specific configuration
 configure :build do
