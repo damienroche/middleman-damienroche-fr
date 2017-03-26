@@ -10,7 +10,11 @@ source "https://rubygems.org" do
   gem 'slim',                   '~> 3.0.2'
   gem "middleman-favicon-maker"
   gem 'middleman-google-analytics', '~> 3.0'
+  gem 'middleman-robots'
   gem 'better_errors'
+  gem 'bourbon'
+  gem 'builder'
+  gem 'middleman-autoprefixer'
 end
 
 source "https://rails-assets.org/" do

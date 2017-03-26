@@ -1,3 +1,16 @@
 repo: "https://github.com/damienroche/middleman-damienroche-fr"
 maintenance: 1
 analytic: "UA-70456213-1"
+description: "Damien Roche, front-end developer, currently student @ 42 Paris"
+language: 'en-us'
+url: 'http://www.damienroche.fr'
+human_url: 'damienroche.fr'
+name: 'Damien Roche'
+description: 'Front-end developer from Lyon, currently student @ 42 Paris'
+title: 'Damien Roche, front-end developer from Lyon, currently student @ 42 Paris'
+
+# Optional
+# logo_image_name: 'example-logo-big.png'
+# logo_image_path: 'http://www.examplecdn.com/example-logo-large.png'
+twitter_handle: '@dam_'
+# facebook_app_id: ''

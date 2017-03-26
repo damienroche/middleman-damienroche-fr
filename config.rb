@@ -10,6 +10,9 @@ require 'slim'
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+page 'sitemap.html', layout: false
+page 'sitemap.xml', layout: false
+page 'feed.xml', layout: false
 
 set :frontmatter_extensions, %w(.html .slim)
 
@@ -69,6 +72,10 @@ configure :build do
       ]
     }
   end
+  activate :robots, rules: [
+    { user_agent: '*', allow: ['/'] }
+  ],
+  sitemap: "#{data.site.url}/sitemap.xml"
 end
 
 # Read secret files
