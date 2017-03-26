@@ -8,6 +8,7 @@ source "https://rubygems.org" do
   gem 'middleman-deploy', '~> 1.0'
   gem 'middleman-minify-html'
   gem 'slim',                   '~> 3.0.2'
+  gem "middleman-favicon-maker"
   gem 'better_errors'
 end
 

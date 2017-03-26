@@ -50,6 +50,19 @@ configure :build do
   # Append a hash to asset urls
   activate :cache_buster
   activate :asset_hash
+  activate :favicon_maker do |f|
+    f.template_dir  = 'source/images'
+    f.icons = {
+      "_favicon_template_hires.png" => [
+        { icon: "apple-touch-icon-152x152-precomposed.png" },
+        { icon: "apple-touch-icon-114x114-precomposed.png" },
+        { icon: "apple-touch-icon-72x72-precomposed.png" },
+        { icon: "mstile-144x144", format: :png },
+        { icon: "favicon.png", size: "16x16" },
+        { icon: "favicon.ico", size: "64x64,32x32,24x24,16x16" },
+      ]
+    }
+  end
 end
 
 # Read secret files
