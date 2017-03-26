@@ -7,12 +7,19 @@ Cd to the project folder. If not, install middleman with
 ```
 gem install middleman
 ```
-
-## FTP Deployment
+## Run local server
+```
+bundle exec middleman server
+```
+## Build
+```
+bundle exec middleman build
+```
+## Deployment
 
 Deployment is perform with middleman-deploy using ftp method. FTP credentials are stored in .password & .user files
 
-To deploy, run
+To deploy, run :
 ```
 bundle exec middleman deploy
 ```
