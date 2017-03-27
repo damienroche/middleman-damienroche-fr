@@ -1,3 +1,7 @@
+body {
+  // https://webgradients.com/
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
 .maintenance {
   height: calc(100vh - 2rem);
   display: flex;
@@ -18,6 +22,14 @@
       &:last-child {
         margin-right: 0
       }
+    }
+  }
+  a {
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .2s ease;
+    &:hover {
+      color: white;
     }
   }
 }
