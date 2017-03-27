@@ -1,9 +1,11 @@
 .maintenance
   .content
-    p.u-center-aligned back soon, keep in touch here 👇
-    ul
-      - data.social.each do |social|
-        - if social.pro == 1
-          li
-            a href= social.href = social.name
-    p.u-right-aligned damien.
+    .socials-links
+      span 👉
+      ul
+        - data.social.each do |social|
+          - if social.pro == 1 && social.visibility == 1
+            li
+              a href= social.href = social.name
+    p.u-center-aligned back soon, keep in touch here
+    /p.u-center-aligned damien.

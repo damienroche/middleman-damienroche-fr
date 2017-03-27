@@ -1,18 +1,21 @@
 body {
   // https://webgradients.com/
   background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+  // background-image: linear-gradient(to top, #00b157 0%, #00ab45 100%);
 }
 .maintenance {
   height: calc(100vh - 2rem);
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 .content {
   ul {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
     list-style: none;
     li {
       margin: 0 5px;
@@ -25,11 +28,52 @@ body {
     }
   }
   a {
+    color: white;
     font-weight: bold;
     text-decoration: none;
-    transition: all .2s ease;
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -4px;
+      height: 2px;
+      background: white;
+      width: 100%;
+      opacity: 0;
+      transition: all .2s ease;
+    }
     &:hover {
-      color: white;
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+  p {
+    transition: all .3s;
+    opacity: 0.7;
+    &:first-of-type {
+      margin-top: -40px;
+      margin-bottom: 27px;
+    }
+  }
+}
+
+.socials-links {
+  position: relative;
+  span {
+    position: absolute;
+    transition: all .2s;
+    opacity: 0;
+    left: -25px;
+  }
+  &:hover {
+    span {
+      opacity: 1;
+    }
+    & ~ p {
+      opacity: 0.2;
     }
   }
 }
