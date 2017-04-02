@@ -14,6 +14,11 @@
   pro: 1
   visibility: 1
 -
+  name: "email"
+  href: "mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#097;&#109;&#105;&#101;&#110;&#114;&#111;&#099;&#104;&#101;&#046;&#102;&#114;"
+  pro: 1
+  visibility: 1
+-
   name: "codepen"
   href: "http://codepen.io/ramien/"
   pro: 1
@@ -28,3 +33,4 @@
   href: "https://soundcloud.com/dam"
   pro: 0
   visibility: 0
+
